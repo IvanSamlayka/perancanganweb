@@ -1,0 +1,78 @@
+body{
+  background-color: #565454;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header{
+  background-color: #ffffff;
+  width: 1365px;
+  height: 90px;
+  border: 0px solid;
+}
+table,tr,td{
+background-color: LightGoldenRodYellow ;
+font-family: century gothic;
+color: black;
+border: 1px solid black;
+padding: 5px;
+border-collapse: collapse;
+}
+.h{
+border: 8px groove yellow;
+padding: 20px;
+}
+.posisi{
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+left: 0;
+right: 0;
+top: 100px;
+bottom: 0;
+}
+body{
+background-repeat: no-repeat;
+background-size: 1400px auto;
+}
+div.tombol{
+    margin: 10px 0;
+}
+/* a.tombolback{
+    background: #405598;
+}
+
+a.tombolback:hover{
+    background: #35467e;
+}
+a.tomboledit{
+    background: #405598;
+}
+
+a.tomboledit:hover{
+    background: #35467e;
+} */
+.tombolback{
+  background: #1E1E1E;
+  font-size: 14px;
+  padding: 0 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  line-height: px;
+  width: 10%;
+}
+.tombole{
+  background: #1E1E1E;
+  font-size: 14px;
+  padding: 0 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  line-height: px;
+  width: 10%;
+}
