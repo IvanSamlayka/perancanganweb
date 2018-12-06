@@ -1,0 +1,200 @@
+body{
+
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family:"Helvetica neue", arial, sans-serif;
+  background: linear-gradient(white, #D3D8E8));
+}
+
+#header{
+  width: 100%;
+  background-color: #3B5998;
+}
+#headback{
+  width: 1000px;
+  margin:auto;
+  height: 80px;}
+
+#headback li{
+    float: left;
+    text-align: left;
+    color: white;
+    list-style-type: none;
+  }
+#isihb{
+  margin-top: 25px;
+  color: white;
+  font-size: 35px;
+  font-weight: 950px;
+}
+
+#headback form{
+  margin-top: 15px;
+  float: right;
+}
+#headback form li{
+  font-size: 13px;
+  margin-left: 15px;
+  color: white;
+}
+#headback form input[type="text"]{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 150px;
+  border: 1px solid: white;
+  height: 25px;
+  padding-left: 4px;
+}
+#headback form input[type="password"]{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 150px;
+  border: 1px solid: white;
+  height: 25px;
+  padding-left: 4px;
+}
+#headback form input[type="submit"]
+{
+ height:25px;
+ margin-top:20px;
+ background-color:#3B5998;
+ color:white;
+font-weight: bold;
+ border:1px solid black;
+}
+
+#badan{
+  margin:auto;
+  text-align:right;
+  width:1000px;
+}
+#badan div{
+  float: left;
+  font-family: arial, sans-serif;
+}
+#badan #badankiri{
+  margin-top:30px;
+  width:50%;
+  text-align:left;
+}
+#badan #badankiri p{
+  font-size:20px;
+  font-family:arial;
+  font-weight:bold;
+  margin: 0px;
+  color:black;
+}
+#badan #badankiri img{
+width: 480px;
+margin-top: 10px;
+}
+
+#badan #badankanan{
+margin-top: 10px;
+width: 500px;
+text-align: left;
+}
+#badan #badankanan h1{
+margin: 0px;
+font-size:37px;
+color: black;
+}
+#badan #badankanan p{
+font-size: 18px;
+color: black;
+}
+#badan #badankanan li{
+list-style: none;
+margin-top: 10px;
+color: black;
+font-size: 18px;
+}
+#badan #badankanan li select{
+padding: 10px;
+}
+#badan #badankanan li a{
+margin-left: 10px;
+width: 150px;
+color:darkblue;
+text-decoration: none;
+font-size: 11px;
+display: inline-block;
+vertical-align: middle;
+line-height: 15px;
+}
+
+#badan #badankanan li input[id="firstname"]{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  float: left;
+  width: 230px;
+  border: 1px solid: white;
+  height: 35px;
+  padding-left: 4px;
+}
+#badan #badankanan li input[id="lastname"]{
+  margin-top: 3px;
+  float: : right;
+  margin-bottom: 3px;
+  width: 250px;
+  border: 1px solid: white;
+  height: 35px;
+  padding-left: 4px;
+  margin-left: 20px;
+}
+#badan #badankanan li input[id="mail"]{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 500px;
+  border: 1px solid: white;
+  height: 35px;
+  padding-left: 4px;
+}
+#badan #badankanan li input[id="pass"]{
+  margin-top: 3px;
+  margin-bottom: 3px;
+  width: 500px;
+  border: 1px solid: white;
+  height: 35px;
+  padding-left: 4px;
+}
+#badan #badankanan li input[type="submit"]{
+width: 205px;
+height: 45px;
+text-align: center;
+font-size: 19px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Freight Sans Bold', helvetica, sans-serif;
+font-weight: bold;
+background: forestgreen;
+border-radius: 10px;
+color: white
+}
+
+#badan #formultahun{
+  background-color:white;
+  border: 1px solid #d3d5fd;
+  border-radius:0px;
+  font-family:Helvetica;
+  font-size:12px;
+  font-weight:400;
+  outline-color:rgb(77, 144, 254);
+  padding-bottom:6px;
+  padding-top:6px;
+  padding-left:8px;
+  padding-right:8px;
+  margin-top:6px;
+  margin-right: -4.3px;
+}
+
+#badan #badankanan #setuju{
+color:grey;
+font-size: 11px;
+}
+
+#badan #badankanan b{
+  color: grey;
+  font-size: 13px;
+}

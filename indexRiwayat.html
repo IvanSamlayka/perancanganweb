@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lost & Found</title>
+  <link rel="stylesheet" href="styleLF.css">
+  <script src="scriptLF.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fontawesome.com/icons/plus?style=solid">
+ </head>
+ <body>
+   <div class="header">
+ 		<img src="gambar/a.png" height="90" width="400">
+ 		<img align="right" src="gambar/b.png" height="90" width="450">
+ 	</div>
+<header>
+  <input type="checkbox" id="tag-menu"/>
+  <label class="fa fa-bars menu-bar" for="tag-menu"></label>
+  <div class="jw-drawer">
+    <nav>
+      <ul>
+        <li><a href="indexProfil.html"><img src="gambar/f.png" height="40" width="40" align="center">&nbsp;&nbsp;Arif Febrian</a></li>
+        <li><a href="https://www.facebook.com/"><img src="gambar/facebook.png" height="22" width="22" align="center">&nbsp;&nbsp;Facebook</a></li>
+        <li><a href="https://twitter.com/?lang=en"><img src="gambar/twitter.png" height="22" width="22" align="center">&nbsp;&nbsp;Twitter</a></li>
+        <li><a href="#"><img src="gambar/tanda.png" height="22" width="22" align="center">&nbsp;&nbsp;About</a></li>
+        <li><a href="index.html"><img src="gambar/Outo.png" height="22" width="22" align="center">&nbsp;&nbsp;Log Out</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+<div class="menu">
+<ul id="navigasi">
+  <li></li>
+  <li><a href="#1">HOME</a>
+ </li>
+ <li><a href="#2">FASILKOM</a>
+ <ul>
+ <li><a href="#21">Sejarah</a></li>
+ <li><a href="#22">Visi-Misi</a></li>
+ </ul>
+ </li>
+ <li><a href="#3">ORMAWA</a>
+ <ul>
+ <li><a href="#31">BEM</a></li>
+ <li><a href="#32">BPM</a></li>
+ <li><a href="#33">HIMASIF</a></li>
+ </ul>
+ </li>
+ <li><a href="#4">UKM</a>
+ <ul>
+ <li><a href="#41">MACHO</a></li>
+ <li><a href="#42">ETALASE</a></li>
+ <li><a href="#43">BALWANA</a></li>
+ <li><a href="#44">BINARY</a></li>
+ <li><a href="#45">LAOS</a></li>
+ </ul>
+ </li>
+ <li><a href="#5">LOST & FOUND</a></li>
+</ul>
+</div>
+<section class="LF">
+    <h2 align = "center"><b>Riwayat</b></h2>
+ <div class="container">
+   <p><img src="gambar/f.png" class="profil"> <b>Arif Febrian</b><br/> 172410101040<br> Sistem Informasi</p>
+   <br>
+   <p>Assalamualaikum wr. wrb. Ditemukan Charger Laptop Asus bertempatan di Ruang 5. Terima Kasih</p>
+   <button id="a">Cek Gambar</button>
+   <div id="b" class="modal">
+     <div class="modal-content">
+       <span class="c">&times;</span>
+       <img src="gambar/charge.jpg" width="400" height="250">
+     </div>
+  </div>
+   <br>
+   <br>
+   <p><span>Contact Person : 087755887050</span><span class="right">1 Desember 2018 - 13:00</span></p>
+</div>
+
+</section>
+<aside>
+	<section width="280" class="a">
+	<label for="search" class="searching">Search</label>
+	<input type="search" type="text/css" class="search" placeholder="type anything...">
+	</section>
+	<section>
+ <h2>Berita Populer</h2>
+ <div>
+	 <a href="" class="populer">Penyesuaian UKT</a>
+	 <a href="https://binaryupdate.org/2018/10/28/tim-ods-dari-mahasiswa-fakultas-ilmu-komputer-universitas-jember-berhasil-lolos-babak-final-gemastik-11/" class="populer">Tim ODS Lolos GEMASTIK 11</a>
+	 <a href="" class="populer">FASILKOM Peduli Korban Gempa & Tsunami</a>
+	 <a href=""class="populer">Pelantikan Dekan Baru</a>
+	 <a href=""class="populer">SISFO CUP 2018</a>
+	 <a href=""class="populer">Penerimaan Mahasiswa Baru</a>
+</div>
+</section>
+</aside>
+<script>
+  var bb = document.getElementById('b');
+  var aa = document.getElementById("a");
+  var cc = document.getElementsByClassName("c")[0];
+  aa.onclick = function() {
+      bb.style.display = "block";
+  }
+  cc.onclick = function() {
+      bb.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == bb) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+</body>
+</html>

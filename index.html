@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WELCOME TO OUR WEBSITE</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="gambar/a.png" height="80" width="400">
+        <img align="right" src="gambar/b.png" height="90" width="450">
+      </div>
+    </header>
+    <aside>
+      <img src="gambar/h.jpg" class="ospek">
+    </aside>
+    <section id="content">
+    <table align="right" class="table">
+      <tr>
+        <td><h1 class="welcome">WELCOME</h1></td>
+      </tr>
+      <td align="left"><h2 class="welcome">TO OUR</h2></td>
+      <tr>
+        <td align="left"><h3 class="welcome">WEBSITE</h3></td>
+      </tr>
+      <tr>
+        <td><br></td>
+      </tr>
+      <tr>
+        <td align="center">
+          <a href="indexRegistrasi.html"><input type="submit" value="SIGN IN" class="tombol1"></a>
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><h4>OR</h4></td>
+      </tr>
+      <tr>
+        <td align="center"><button id="myBtn" class="tombol2">LOGIN</button></td>
+      </tr>
+    </table>
+  </section>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <div class="konten">
+          <div class="atas">
+              <div class="grup">
+                  <a href="www.facebook.com" class="a tombol facebook"><i class="fa fa-facebook"></i>Join with Facebook</a>
+                  <a href="www.twitter.com" class="a tombol twitter"><i class="fa fa-twitter"></i>Join with Twitter</a>
+              </div>
+              <form>
+                <table id="inputan">
+                  <tr>
+                  <div class="grup" id="masukan">
+                      <input type="text" placeholder="Masukkan Username Anda" id = "nama">
+                  </div>
+                  </tr>
+                  <tr>
+                  <div class="grup" id="masukan">
+                      <input class="pw" type="password" placeholder="Masukkan Password Anda" id = "pass">
+                      <div class="group1">
+                        <input type="checkbox" id="chk">
+                        <label id="showhide" class="label">Show Password</label>
+                      </div>
+                  </div>
+                  </tr>
+                  <tr>
+                  <div class="jarakatas30">
+                      <div class="grup tengah">
+                          <a><button type="button" onclick="terimainput()" class="tombolx">LOGIN</button></a>
+                      </div>
+                  </div>
+                  </tr>
+                  <tr>
+                  <div class="grup">
+                      <div class="kiri">
+                          <input type="checkbox" id="cb">
+                          <span>Keep me signed in</span>
+                        </div>
+                    <div class="kanan">
+                        <a href="#" class="a garisbawah">Forgot Your Password?</a>
+                    </div>
+                </div>
+                </tr>
+                </table>
+            </form>
+        </div>
+        <div class="bawah tengah">
+            <span class="info">Incorrect login or Password</span>
+        </div>
+    </div>
+    </div>
+
+  </div>
+
+  <script>
+  var modal = document.getElementById('myModal');
+  var btn = document.getElementById("myBtn");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  function terimainput(){
+      var a = document.getElementById("nama").value;
+      var b = document.getElementById("pass").value;
+      var c = document.getElementById("cb").value;
+
+      var tabel = document.getElementById("inputan");
+      var row = tabel.insertRow();
+      var cell1 = row.insertCell();
+      var cell2 = row.insertCell();
+      var cell3 = row.insertCell();
+
+      if (!a || !b || !c) {
+          alert("Data tidak boleh ada yang kosong");
+
+      } else {
+          cell1.innerHTML = a;
+          cell2.innerHTML = b;
+          cell3.innerHTML = c;
+          alert("Login sukses !!")
+          window.location.href = "indexHome.html";
+      }
+  }
+  var masukanpass = document.getElementById('pass'),
+      chk  = document.getElementById('chk'),
+      label = document.getElementById('showhide');
+
+
+     chk.onclick = function () {
+
+      if(chk.checked) {
+
+           masukanpass.setAttribute('type', 'text');
+           label.textContent = 'Hide Password';
+       } else {
+
+           masukanpass.setAttribute('type', 'password');
+           label.textContent = 'Show Password';
+       }
+
+     }
+  </script>
+  </body>
+</html>

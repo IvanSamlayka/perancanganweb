@@ -1,0 +1,161 @@
+body{
+  background-color: #565454;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header{
+  background-color: #ffffff;
+  width: 1365px;
+  height: 90px;
+  border: 0px solid;
+}
+table,tr,td{
+background-color: LightGoldenRodYellow ;
+font-family: century gothic;
+color: black;
+border: 0px solid black;
+padding: 5px;
+border-collapse: collapse;
+}
+.h{
+border: 8px groove yellow;
+padding: 20px;
+}
+.posisi{
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+left: 0;
+right: 0;
+top: 100px;
+bottom: 0;
+}
+/* body{
+background-repeat: no-repeat;
+background-size: 1400px auto;
+} */
+.Nama{
+  font-family: century gothic;
+  font-size: 15px;
+}
+.NIM{
+  font-family: century gothic;
+  font-size: 15px;
+}
+.Prodi{
+  font-family: century gothic;
+  font-size: 15px;
+}
+.tanggal{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 90%;
+  height: 20px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.email{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 90%;
+  height: 20px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.JK{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 95%;
+  height: 23px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.Darah{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 95%;
+  height: 23px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.Agama{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 95%;
+  height: 23px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.Alamat{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 90%;
+  height: 20px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.Status{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 95%;
+  height: 23px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.Negara{
+  font-family: century gothic;
+  font-size: 15px;
+  width: 90%;
+  height: 20px;
+  padding: 0 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  color: #454545;
+  outline: none;
+}
+.tombolback{
+  background: #1E1E1E;
+  font-size: 14px;
+  padding: 0 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  line-height: px;
+  width: 10%;
+}
+.tombole{
+  background: #1E1E1E;
+  font-size: 14px;
+  padding: 0 7px;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  line-height: px;
+  width: 10%;
+}

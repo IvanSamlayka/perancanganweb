@@ -1,0 +1,257 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:18px;
+    background-color:#FFF
+}
+
+header {
+    width:5%;
+    height: 48px;
+    background-color:#565454;
+    z-index:1000;
+    float: left;
+}
+.menu-bar {
+    color:#FFF;
+    font-size:25px;
+    cursor:pointer;
+    padding:10px 12px;
+    margin-left:10px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.menu-bar:hover {
+    background-color:#444444;
+    border-radius:50px;
+}
+
+#tag-menu {
+    display:none;
+}
+
+
+#tag-menu:checked ~ div.jw-drawer {
+ animation: slide-in 0.5s ease;
+ animation-fill-mode: forwards;
+}
+
+.jw-drawer {
+    margin: 0px auto;
+    padding: 0px auto;
+    position:absolute;
+    left:-250px;
+    background-color:#565454;
+    height:60%;
+    z-index:100;
+    width:230px;
+    animation: ease;
+    animation-fill-mode: forwards;
+}
+
+.jw-drawer ul li {
+    list-style:none;
+}
+
+.jw-drawer ul li a {
+    padding:10px 20px;
+    text-decoration:none;
+    display:block;
+    color:#FFF;
+    border-top:0.5px solid #565454;
+}
+
+.jw-drawer ul li a:hover{
+    background-color:#444444;
+}
+
+.jw-drawer ul li a i {
+    width:50px;
+    height:35px;
+    text-align:center;
+    padding-top:15px;
+}
+
+@keyframes slide-in {
+ from {left: -280px;}
+ to {left: 0;}
+}
+
+@keyframes slide-out {
+ from {left: 0;}
+ to {left: -280px;}
+}
+.menu {
+ display: block;
+ background-color:#565454;
+ height:48px;
+ width: 95%;
+ float: right;
+}
+#navigasi {
+ position:relative;
+ line-height:30px;
+ font-weight: bold;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi a {
+ display:block;
+ padding:8px 16px;
+ background-color:#565454;
+ color:#fff;
+ text-decoration:none;
+}
+
+#navigasi a:hover {
+ background-color:#444444;
+ color:#fff;
+}
+
+#navigasi li {
+ position:relative;
+ float:left;
+}
+
+#navigasi ul {
+ position:absolute;
+ display:none;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ list-style-position:outside;
+}
+
+#navigasi li ul a{
+ width:12em;
+ height:auto;
+ float:left;
+}
+
+#navigasi li:hover ul{
+ display:block;
+}
+
+#navigasi li:hover ul ul{
+ display:none;
+}
+section, aside, nav, article, figure, figcaption {
+	display: block;}
+.wrapper {
+  	width: 940px;
+  	margin: 20px auto 20px auto;
+  	border: 2px solid #000000;
+  	background-color: #ffffff;
+  }
+  h1 {
+  	text-indent: -9999px;
+  	width: 940px;
+  	height: 130px;
+  	margin: 0px;
+  }
+  p{
+    font-size: 15px;
+  }
+  nav ul {
+  	margin: 0px;
+  	padding: 5px 0px 5px 30px;}
+  nav li {
+  	display: inline;
+  	margin-right: 40px;}
+  nav li a {
+  	color: #ffffff;}
+  nav li a:hover, nav li a.current {
+  	color: #000000;}
+
+
+  section.ETALASE {
+  	float: left;
+  	width: 79%;
+  	border-right: 1px solid #eeeeee;
+  }
+  article {
+  	clear: both;
+  	overflow: auto;
+  	width: 100%;}
+  hgroup {
+  	margin-top: 40px;}
+  figure {
+  	float: left;
+  	width: 290px;
+  	height: 1090px;
+  	padding: 5px;
+  	margin: 20px;
+  	border: 1px solid #eeeeee;
+  }
+  aside {
+  	width: 250px;
+  	float: left;
+  	padding: 0px 0px 0px 20px;
+  }
+  aside section a {
+  	display: block;
+  	padding: 10px;
+  	border-bottom: 1px solid #eeeeee;
+  }
+  aside section a:hover {
+  	color: #000;
+  	background-color: #efefef;
+  }
+  .populer {
+  	color: #565454;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .selengkapnya{
+    color: #000cff;
+    font-size: 15px;
+  }
+  h1, h2, h3 {
+  	font-weight: normal;
+  }
+  h2 {
+  	margin: 10px 0px 5px 0px;
+  	padding: 0px;
+  }
+  h3 {
+  	margin: 0px 0px 10px 0px;
+  	color: #565454;
+  }
+  aside h2 {
+  	padding: 30px 0px 10px 0px;
+  	color: #565454;
+  }
+  .a{
+    margin: 12px auto;
+  }
+  .searching{
+    padding: 8px;
+    background-color: #565454;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: -5px;
+  }
+
+.searching:hover{
+  color: #fff;
+  background-color: #3a963b;
+}
+
+.search{
+  padding: 8px;
+  background-color:#dbdbdd;
+  font-size: 12px;
+  width: 185px;
+  border: none;
+  color: #4a4c4c;
+}

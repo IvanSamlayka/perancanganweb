@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lost & Found</title>
+  <link rel="stylesheet" href="styleLF.css">
+  <script src="scriptLF.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fontawesome.com/icons/plus?style=solid">
+ </head>
+ <body>
+   <div class="header">
+ 		<img src="gambar/a.png" height="90" width="400">
+ 		<img align="right" src="gambar/b.png" height="90" width="450">
+ 	</div>
+<header>
+  <input type="checkbox" id="tag-menu"/>
+  <label class="fa fa-bars menu-bar" for="tag-menu"></label>
+  <div class="jw-drawer">
+    <nav>
+      <ul>
+        <li><a href="indexProfil.html"><img src="gambar/f.png" height="40" width="40" align="center">&nbsp;&nbsp;Arif Febrian</a></li>
+        <li><a href="https://www.facebook.com/"><img src="gambar/facebook.png" height="22" width="22" align="center">&nbsp;&nbsp;Facebook</a></li>
+        <li><a href="https://twitter.com/?lang=en"><img src="gambar/twitter.png" height="22" width="22" align="center">&nbsp;&nbsp;Twitter</a></li>
+        <li><a href="#"><img src="gambar/tanda.png" height="22" width="22" align="center">&nbsp;&nbsp;About</a></li>
+        <li><a href="index.html"><img src="gambar/Outo.png" height="22" width="22" align="center">&nbsp;&nbsp;Log Out</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+<div class="menu">
+<ul id="navigasi">
+  <li></li>
+  <li><a href="indexHome.html">HOME</a>
+ </li>
+ <li><a href="#2">FASILKOM</a>
+ <ul>
+ <li><a href="sejarah.html">Sejarah</a></li>
+ <li><a href="visimisi.html">Visi-Misi</a></li>
+ </ul>
+ </li>
+ <li><a href="#3">ORMAWA</a>
+ <ul>
+ <li><a href="indexBEM.html">BEM</a></li>
+ <li><a href="indexBPM.html">BPM</a></li>
+ <li><a href="indexHIMASIF.html">HIMASIF</a></li>
+ </ul>
+ </li>
+ <li><a href="#4">UKM</a>
+ <ul>
+ <li><a href="indexUKMMACHO.html">MACHO</a></li>
+ <li><a href="indexUKMETALASE.html">ETALASE</a></li>
+ <li><a href="indexUKMBalwana.html">BALWANA</a></li>
+ <li><a href="indexUKMBinary.html">BINARY</a></li>
+ <li><a href="indexUKMLaos.html">LAOS</a></li>
+ </ul>
+ </li>
+ <li><a href="indexLF.html">LOST & FOUND</a></li>
+</ul>
+</div>
+<section class="LF">
+    <h2 align = "center"><b>Lost And Found</b></h2><button type="button" name="button" class="upload" id="a">Upload</button>
+    <div id="b" class="modal">
+      <div class="modal-content">
+        <span class="c">&times;</span>
+        <div class="konten">
+            <div class="atas">
+                <form>
+                  <table id="inputan">
+                    <tr>
+                    <div class="grup" id="masukan">
+                        <textarea name="name" placeholder="Keterangan" rows="8" cols="80" class="ket" id="ket"></textarea>
+                    </div>
+                    </tr>
+                    <tr>
+                    <div class="form" id="masukan" method="get">
+                      <input id="foto" type="file" class="input" accept="image/*"  onchange="tampilkanPreview(this,'preview')" />
+                    </div>
+                    </tr>
+                    <tr>
+                      <div class="grup" id="masukan">
+                          <input type="text" placeholder="Nomor Ponsel Anda" id="hp">
+                      </div>
+                      </tr>
+                      <tr>
+                    <div class="jarakatas30">
+                        <div class="grup tengah">
+                            <a><button type="button" onclick="terimainput()" class="tombolx">UPLOAD</button></a>
+                        </div>
+                    </div>
+                    </tr>
+                    <tr>
+                  </tr>
+                  </table>
+              </form>
+          </div>
+          <div class="bawah tengah">
+              <span class="info">Incorrect login or Password</span>
+          </div>
+      </div>
+      </div>
+
+    </div>
+    <a href="indexRiwayat.html"><button type="button" name="button" class="riwayat">Riwayat</button></a>
+ <div class="container">
+   <p><img src="gambar/f.png" class="profil"> <b>Arif Febrian</b><br/> 172410101040<br> Sistem Informasi</p>
+   <br>
+   <p>Assalamualaikum wr. wrb. Ditemukan Charger Laptop Asus bertempatan di Ruang 5. Terima Kasih</p>
+   <button id="d">Cek Gambar</button>
+   <div id="e" class="modal">
+     <div class="modal-content">
+       <span class="f">&times;</span>
+       <img src="gambar/charge.jpg" width="400" height="250">
+     </div>
+  </div>
+   <br>
+   <br>
+   <p><span>Contact Person : 087755887050</span><span class="right">1 Desember 2018 - 13:00</span></p>
+</div>
+ <div class="container gelap">
+   <p><img src="gambar/i.png" class="profil">  <b>Brian Febrian</b><br/> 172410102040<br> Teknologi Informasi</p>
+   <br>
+   <p>Assalamualaikum wr. wrb. Ditemukannya Charger Kacamata bertempatan di Lab SAC Terima Kasih</p>
+   <button id="g">Cek Gambar</button>
+   <div id="h" class="modal">
+     <div class="modal-content">
+       <span class="i">&times;</span>
+       <img src="gambar/kacamata.jpg" width="400" height="250">
+     </div>
+  </div>
+   <br>
+   <br>
+   <p><span>Contact Person : 085258813585</span><span class="right">2 Desember 2018 - 08:30</span></p>
+ </div>
+ <div class="container">
+   <p><img src="gambar/firjon.png" class="profil"> <b>Firjon Maulana</b><br/> 172410103030<br> Informatika</p>
+   <br>
+   <p>Assalamualaikum wr. wrb. Ditemukan Mouse Gaming bertempatan di Aula. Terima Kasih</p>
+   <button id="j">Cek Gambar</button>
+   <div id="k" class="modal">
+     <div class="modal-content">
+       <span class="l">&times;</span>
+       <img src="gambar/mouse.jpg" width="400" height="250">
+     </div>
+  </div>
+   <br>
+   <br>
+   <p><span>Contact Person : 087755887050</span><span class="right">3 Desember 2018 - 18:00</span></p>
+ </div>
+ <div class="container gelap">
+   <p><img src="gambar/ega.png" class="profil"> <b>Gusti Putra</b><br/> 172410101113<br>Sistem Informasi</p>
+   <br>
+   <p>Assalamualaikum wr. wrb. Ditemukannya Charger headset bertempatan di Ruang 3. Terima Kasih</p>
+   <button id="m">Cek Gambar</button>
+   <div id="n" class="modal">
+     <div class="modal-content">
+       <span class="o">&times;</span>
+       <img src="gambar/headset.jpg" width="400" height="250">
+     </div>
+  </div>
+   <br>
+   <br>
+   <p><span>Contact Person : 085258813585</span><span class="right">5 Desember 2018 - 12:30</span></p>
+ </div>
+</section>
+<aside>
+	<section width="280" class="a">
+	<label for="search" class="searching">Search</label>
+	<input type="search" type="text/css" class="search" placeholder="type anything...">
+	</section>
+	<section>
+ <h2>Berita Populer</h2>
+ <div>
+	 <a href="" class="populer">Penyesuaian UKT</a>
+	 <a href="https://binaryupdate.org/2018/10/28/tim-ods-dari-mahasiswa-fakultas-ilmu-komputer-universitas-jember-berhasil-lolos-babak-final-gemastik-11/" class="populer">Tim ODS Lolos GEMASTIK 11</a>
+	 <a href="" class="populer">FASILKOM Peduli Korban Gempa & Tsunami</a>
+	 <a href=""class="populer">Pelantikan Dekan Baru</a>
+	 <a href=""class="populer">SISFO CUP 2018</a>
+	 <a href=""class="populer">Penerimaan Mahasiswa Baru</a>
+</div>
+</section>
+</aside>
+<script>
+function tampilkanPreview(gambar,idpreview){
+    var gb = gambar.files;
+    for (var i = 0; i < gb.length; i++){
+        var gbPreview = gb[i];
+        var imageType = /image.*/;
+        var preview=document.getElementById(idpreview);
+        var reader = new FileReader();
+
+        if (gbPreview.type.match(imageType)) {
+            preview.file = gbPreview;
+            reader.onload = (function(element) {
+                return function(e) {
+                    element.src = e.target.result;
+                };
+            })(preview);
+            reader.readAsDataURL(gbPreview);
+        }else{
+            alert("file yang anda upload tidak sesuai. Khusus mengunakan image.");
+        }
+
+    }
+}
+
+var bb = document.getElementById('b');
+var aa = document.getElementById("a");
+var cc = document.getElementsByClassName("c")[0];
+aa.onclick = function() {
+    bb.style.display = "block";
+}
+cc.onclick = function() {
+    bb.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == bb) {
+        modal.style.display = "none";
+    }
+}
+
+var ee = document.getElementById('e');
+var dd = document.getElementById("d");
+var ff = document.getElementsByClassName("f")[0];
+dd.onclick = function() {
+    ee.style.display = "block";
+}
+ff.onclick = function() {
+    ee.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == ee) {
+        ee.style.display = "none";
+    }
+}
+var hh = document.getElementById('h');
+var gg = document.getElementById("g");
+var ii = document.getElementsByClassName("i")[0];
+gg.onclick = function() {
+    hh.style.display = "block";
+}
+ii.onclick = function() {
+    hh.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == hh) {
+        hh.style.display = "none";
+    }
+}
+var kk = document.getElementById('k');
+var jj = document.getElementById("j");
+var ll = document.getElementsByClassName("l")[0];
+jj.onclick = function() {
+    kk.style.display = "block";
+}
+ll.onclick = function() {
+    kk.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == kk) {
+        hh.style.display = "none";
+    }
+}
+var nn = document.getElementById('n');
+var mm = document.getElementById("m");
+var oo = document.getElementsByClassName("o")[0];
+mm.onclick = function() {
+    nn.style.display = "block";
+}
+oo.onclick = function() {
+    nn.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == nn) {
+        kk.style.display = "none";
+    }
+}
+function terimainput(){
+    var x = document.getElementById("ket").value;
+    var y = document.getElementById("foto").value;
+    var z = document.getElementById("hp").value;
+
+    var tabel = document.getElementById("inputan");
+    var row = tabel.insertRow();
+    var cell1 = row.insertCell();
+    var cell2 = row.insertCell();
+    var cell3 = row.insertCell();
+
+    if (!x || !y || !z) {
+        alert("Data tidak boleh ada yang kosong");
+
+    } else {
+        cell1.innerHTML = x;
+        cell2.innerHTML = y;
+        cell3.innerHTML = z;
+        confirm("Apakah Anda yakin dengan Data ini?")
+        window.location.href = "indexLF.html";
+    }
+}
+
+</script>
+</body>
+</html>
